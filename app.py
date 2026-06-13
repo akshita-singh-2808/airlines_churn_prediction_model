@@ -215,7 +215,7 @@ elif page == "🔍 Member Lookup":
     loyalty_input = st.number_input(
         "Enter Loyalty Number",
         min_value=0, step=1,
-        value=0
+        value= 480934
     )
 
     if loyalty_input > 0:
